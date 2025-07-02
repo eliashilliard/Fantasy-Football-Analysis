@@ -1,0 +1,51 @@
+PlayerID,PlayerFirstName,PlayerLastName,Position,TeamName
+1,Lamar,Jackson,QB,BAL
+2,Josh,Allen,QB,BUF
+3,Joe ,Burrow,QB,CIN
+4,Baker,Mayfield,QB,TB
+5,Jayden,Daniels,QB,WSH
+6,Jalen,Hurts,QB,PHI
+7,Justin,Herbert,QB,MIN
+8,Patrick,Mahomes,QB,KC
+9,CJ,Stroud,QB,HOU
+10,Dak,Prescott,QB,DAL
+11,Ja'Marr,Chase,WR,CIN
+12,Justin,Jefferson,WR,MIN
+13,Amon-Ra,St.Brown,WR,DET
+14,Garret,Wilson,WR,NYJ
+15,Stefon,Diggs,WR,NE
+16,Tyreek,Hill,WR,MIA
+17,Ceedee,Lamb,WR,DAL
+18,Malik,Nabers,WR,NYG
+19,AJ,Brown,WR,PHI
+20,Nico,Collins,WR,HOU
+21,Jahmyr,Gibbs,RB,DET
+22,Saquon ,Barkley,RB,PHI
+23,Bijan,Robinson,RB,ATL
+24,Derrick,Henry,RB,BAL
+25,Josh,Jacobs,RB,GB
+26,Kyren,Williams,RB,LAR
+27,Bucky,Irving,RB,TB
+28,Alvin,Kamara,RB,NO
+29,Jonathan,Taylor,RB,IND
+30,Joe ,Mixon,RB,HOU
+31,Brock,Bowers,TE,LV
+32,Trey,McBride,TE,ARI
+33,George,Kittle,TE,SF
+34,Travis,Kelce,TE,KC
+35,David,Njoku,TE,CLE
+36,Hunter,Henry,TE,NE
+37,Jake,Ferguson ,TE,DAL
+38,Mark,Andrews,TE,BAL
+39,Sam,Laporta,TE,DET
+40,Cade,Otton,TE,TB
+41,Matt,Stafford,QB,LAR
+42,Jordan,Love,QB,GB
+43,DeVon ,Achane,RB,MIA
+44,James,Cook,RB,BUF
+45,Tee,Higgins,WR,CIN
+46,Terry,McLaurin,WR,WSH
+47,Tyler,Conklin,TE,LAC
+48,Kyle,Pitts,TE,ATL
+49,Zay,Flowers,WR,BAL
+50,DJ,Moore,WR,CHI
