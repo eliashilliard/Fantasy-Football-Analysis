@@ -1,20 +1,20 @@
 -- Create the new procedure for Weekly Fantasy Points
-CREATE PROCEDURE dbo.PlayerWeeklyPoints
-AS
-BEGIN
-    SET NOCOUNT ON;
+create procedure dbo.playerweeklypoints
+as
+begin
+    set nocount on;
 
-    SELECT
-        p.PlayerFirstName,
-        p.PlayerLastName,
-        s.Week,
-        ROUND(s.PointsScored, 2) AS WeeklyPoints,
-        SUM(ROUND(s.PointsScored, 2)) OVER (PARTITION BY p.PlayerID ORDER BY s.Week
-        ) AS RunningWeeklyPoints
-    FROM PlayerStats s
-    JOIN Players p ON s.PlayerID = p.PlayerID
-    ORDER BY p.PlayerFirstName, p.PlayerLastName, s.Week;
-END;
-GO
+    select
+        p.playerfirstname,
+        p.playerlastname,
+        s.week,
+        round(s.pointsscored, 2) AS weeklypoints,
+        sum(round(s.pointsscored, 2)) over (partition by p.playerid order by s.week
+        ) as runningweeklypoints
+    from playerstats s
+    join players p on s.playerid = p.playerid
+    order by p.playerfirstname, p.playerlastname, s.week;
+end;
+go
 
-exec dbo.PlayerWeeklyPoints
+exec dbo.playerweeklypoints
